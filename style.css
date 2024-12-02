@@ -1,0 +1,35 @@
+body {
+  background-image: url(img/leafs.jpeg);
+  position: absolute;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider {
+  font-size: 150px;
+  mix-blend-mode: overlay;
+  text-align: center;
+}
+.container {
+  margin: 100px 0 0 200px;
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.container img {
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid rgba(red);
+  transition: all ease-in-out 0.5s;
+}
+
+.container img:hover {
+  width: 25%;
+}
